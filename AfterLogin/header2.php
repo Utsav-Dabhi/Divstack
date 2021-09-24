@@ -45,12 +45,14 @@
               <a class="nav-link custom-nav-links" href="">Pricing</a>
               <li class="nav-item dropdown custom-nav-links">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <?php 
-                    
-                  ?>
+                  <i class="fas fa-user"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="text-align: center">
-                  <li><a class="dropdown-item" href="">Profile</a></li>
+                  <li><a class="dropdown-item" href="">
+                    <?php 
+                      session_start();
+                      echo $_SESSION['login']; 
+                    ?></a></li>
                   <li>
                     <button type="button" class="btn btn-warning">
                       <a href="logout.php" style="text-decoration: none; color: black">Logout</a>
