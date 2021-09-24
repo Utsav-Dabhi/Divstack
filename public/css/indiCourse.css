@@ -1,0 +1,52 @@
+.indiCourseMainSection {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courseHeadSection {
+    background-image: url("../images/pro4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 3% 0;
+}
+
+.courseName {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.courseName p {
+    font-weight: 600;
+}
+
+.courseName span {
+    color: #ab274f;
+    font-weight: 800;
+}
+
+.courseHeadSection h1 {
+    text-align: center;
+    color: #003153;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.courseDes {
+    font-size: 1.3rem;
+}
+
+.courseHeadSection img {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.courseBodySection {
+    padding: 4% 15%;
+}
+
+.courseDescription h3 {
+    color: #00587a;
+}
