@@ -17,6 +17,8 @@
         <link rel="stylesheet" href="../public/css/contact.css">
         <link rel="stylesheet" href="../public/css/course.css">
         <link rel="stylesheet" href="../public/css/indiCourse.css">
+        <link rel="stylesheet" href="commentPage.css">
+        <link rel="stylesheet" href="comment.css">
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
@@ -42,7 +44,7 @@
             <div class="navbar-nav w-50">
               <a class="nav-link custom-nav-links" href="home2.php">Home</a>
               <a class="nav-link custom-nav-links" href="coursedetails2.php">Courses</a>
-              <a class="nav-link custom-nav-links" href="">Pricing</a>
+              <a class="nav-link custom-nav-links" href="quizes.php">Quizes</a>
               <li class="nav-item dropdown custom-nav-links">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   <i class="fas fa-user"></i>
@@ -68,6 +70,7 @@
 
     </div>
 
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   </body>
 </html>

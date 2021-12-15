@@ -4,8 +4,8 @@
          <div class="row" style="margin: 0">
             <div class="col-lg-7 courseName">
                <h1>CSS 3</h1>
-               <p class="courseDes">A Complete CSS3 Programming Course for Beginners</p>
-               <p style="display: inline-block">Duration: <span>40min</span< /p>
+               <p class="courseDes">Learn CSS for the first time or brush up and dive in even deeper.</p>
+               <p style="display: inline-block">Duration: <span>40min</span></p>
                      <span style="visibility: hidden">No Use</span>
                      <p style="display: inline-block">Modules: <span>10</span></p>
             </div>
@@ -256,4 +256,11 @@
                </div>
             </div>
          </div>
+         
+<div class="comments"></div>
+
+<script>
+const comments_page_id = 2
+
+<?php include 'comment-page-ui.php';?>
       </div> <?php include 'footer2.php';?>

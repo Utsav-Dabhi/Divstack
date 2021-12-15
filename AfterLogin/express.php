@@ -3,8 +3,8 @@
       <div class="row" style="margin: 0">
          <div class="col-lg-7 courseName">
             <h1>Express JS </h1>
-            <p class="courseDes">A Complete Express JS Programming Course for Beginners</p>
-            <p style="display: inline-block">Duration: <span>1 hour</span< /p>
+            <p class="courseDes">No MERN or MEAN... just Express js.</p>
+            <p style="display: inline-block">Duration: <span>1 hour</span></p>
                   <span style="visibility: hidden">No Use</span>
                   <p style="display: inline-block">Modules: <span>10</span></p>
          </div>
@@ -268,4 +268,11 @@
          </div>
       </div>
    </div>
+   
+<div class="comments"></div>
+
+<script>
+const comments_page_id = 6
+
+<?php include 'comment-page-ui.php';?>
 </div> <?php include 'footer2.php';?>

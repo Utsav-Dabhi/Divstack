@@ -41,7 +41,7 @@
 
               <a class="nav-link custom-nav-links" href="home.php">Home</a>
               <a class="nav-link custom-nav-links" href="coursedetails.php">Courses</a>
-              <a class="nav-link custom-nav-links" href="#">Pricing</a>
+              <a class="nav-link custom-nav-links" href="login.php">Quizes</a>
               <button type="button" class="btn btn-warning" id="signUp">
                 <a href="login.php" style="text-decoration: none; color: black;">Signin</a>
               </button>

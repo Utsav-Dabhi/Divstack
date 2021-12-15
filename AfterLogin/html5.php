@@ -268,7 +268,15 @@
 
         </div>
     </div>
+
 </div>
 
+
+<div class="comments"></div>
+
+<script>
+const comments_page_id = 1
+
+<?php include 'comment-page-ui.php';?>
 
 <?php include 'footer2.php';?>

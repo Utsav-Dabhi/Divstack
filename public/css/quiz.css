@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quizHeadSection {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.quizHeadSection h1 {
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.quizHeadSection p {
+    color: white;
+    font-weight: 500;
+}
+
+.quizFormSection {
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.quiz-form select {
+    border: 1px solid rgba(37, 37, 37, .3);
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 20px !important;
+    opacity: .9;
+    padding: 1em 1.5em;
+    transition: all .3s ease-in-out 0s !important;
+    width: 50%;
+}
+
+.footbtn,
+.footbtn:active,
+.footbtn:active,
+.footbtn:visited,
+.footbtn:focus {
+    background-color: #BB8760 !important;
+}
+
+.footbtn:hover {
+    background-color: #c39472 !important;
+}

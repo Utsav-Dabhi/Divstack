@@ -3,8 +3,8 @@
       <div class="row" style="margin: 0">
          <div class="col-lg-7 courseName">
             <h1>Angular JS </h1>
-            <p class="courseDes">A Complete Angular JS Programming Course for Beginners</p>
-            <p style="display: inline-block">Duration: <span>2.5 hours</span< /p>
+            <p class="courseDes">Master Angular 12 and build awesome, reactive web apps</p>
+            <p style="display: inline-block">Duration: <span>2.5 hours</span></p>
                   <span style="visibility: hidden">No Use</span>
                   <p style="display: inline-block">Modules: <span>10</span></p>
          </div>
@@ -17,7 +17,7 @@
       <div class="courseDescription">
          <h3>Description</h3>
          <p>Angular 12 simply is the latest version of Angular 2, you will learn this amazing framework from the ground
-            up in this course! Join the most comprehensive, popular and bestselling Angular course on Udemy and benefit
+            up in this course! Join the most comprehensive, popular and bestselling Angular course on divstack and benefit
             not just from a proven course concept but from a huge community as well! From Setup to Deployment, this
             course covers it all! You'll learn all about Components, Directives, Services, Forms, Http Access,
             Authentication, Optimizing an Angular App with Modules and Offline Compilation and much more - and in the
@@ -271,4 +271,11 @@
          </div>
       </div>
    </div>
+   
+<div class="comments"></div>
+
+<script>
+const comments_page_id = 8
+
+<?php include 'comment-page-ui.php';?>
 </div> <?php include 'footer2.php';?>

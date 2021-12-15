@@ -3,8 +3,8 @@
       <div class="row" style="margin: 0">
          <div class="col-lg-7 courseName">
             <h1>Mongo DB </h1>
-            <p class="courseDes">A Complete Mongo DB Programming Course for Beginners</p>
-            <p style="display: inline-block">Duration: <span>4 hours</span< /p>
+            <p class="courseDes">Master MongoDB Development for Web & Mobile Apps</p>
+            <p style="display: inline-block">Duration: <span>4 hours</span></p>
                   <span style="visibility: hidden">No Use</span>
                   <p style="display: inline-block">Modules: <span>10</span></p>
          </div>
@@ -261,4 +261,11 @@
          </div>
       </div>
    </div>
+   
+<div class="comments"></div>
+
+<script>
+const comments_page_id = 9
+
+<?php include 'comment-page-ui.php';?>
 </div> <?php include 'footer2.php';?>
